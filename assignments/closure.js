@@ -15,15 +15,16 @@ const counter = () => {
   let count =0;
 
   return function () {
-    console.log(count);
+    //console.log(count);
     return count++;
   } 
 };
 const counterOne = counter();
-counterOne();
-counterOne();
-counterOne();
-counterOne();
+//counterOne();
+//counterOne();
+//counterOne();
+//counterOne();
+
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
