@@ -65,6 +65,6 @@ function removeDuplicates(array, cb) {
   cb(array.filter( (obj, i )=> array.indexOf(obj) ===i
   ));
 }
-items.push(...items);
-console.log(items);
-removeDuplicates(items, logger);
+//items.push(...items);
+//console.log(items);
+//removeDuplicates(items, logger);
